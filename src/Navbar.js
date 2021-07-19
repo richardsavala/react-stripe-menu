@@ -11,7 +11,7 @@ const Navbar = () => {
     const center = (tempBtn.left + tempBtn.right) / 2;
     const bottom = tempBtn.bottom - 3;
     console.log(tempBtn);
-    openSubmenu();
+    openSubmenu(page, { center, bottom });
   };
   return (
     <nav className="nav">
